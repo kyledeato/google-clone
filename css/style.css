@@ -13,6 +13,11 @@ a:hover {
     text-decoration: underline;
 }
 
+.material-icons {
+    position: relative;
+    top: 5px;
+    padding: 0 5px;
+}
 /*header*/
 header {
     display: flex;
@@ -35,4 +40,26 @@ main {
 .logo img {
     object-fit: contain;
   height: 100px;
+}
+
+/*search*/
+.textbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#textbox {
+    border: 1px solid lightgray;
+    border-radius: 999px;
+    padding: 5px;
+    
+}
+
+#text {
+    font-size: 16px;
+    width: 467px;
+    height: 34px;
+    border: none;
+    outline: none;
 }
