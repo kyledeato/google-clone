@@ -35,6 +35,12 @@ header {
 #icon-right {
     position: relative;
     top: 6px;
+    margin-left: 10px;
+}
+#icon-right:hover {
+    background-color: lightgray;
+    border-radius: 80%;
+    cursor: pointer;
 }
 
 /*main*/
@@ -89,4 +95,36 @@ main {
 #button:hover {
     border: 1px solid #dadce0;
     
+}
+
+/*footer*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+footer a {
+    color: gray;
+}
+.footer-left {
+    display: flex;
+    
+}
+.left1 {
+    display: flex;
+    padding: 0px 10px;
+}
+#f-right {
+    padding-right: 25px;
+}
+.footer-mid {
+    padding-right: 90px;
+}
+#leaf{
+    height: 14px;
+    margin-right: 6px;
 }
